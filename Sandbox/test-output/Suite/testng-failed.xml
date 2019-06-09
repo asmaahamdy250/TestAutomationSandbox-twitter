@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="5" name="ChromeTest(failed)" parallel="methods">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testingPackage.TestCases">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testingPackage.TestCases -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
